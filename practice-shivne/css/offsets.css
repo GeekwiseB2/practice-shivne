@@ -1,0 +1,32 @@
+.row {
+  border: 1px solid #000;
+  height: 100px;
+}
+.container {
+}
+.small-guy {
+  height: 100px;
+  border: 1px solid #000;
+  background-color: yellow;
+}
+.big-guy {
+  height: 100px;
+  border: 1px solid #000;
+  background-color: blue;
+}
+.inner-div {
+  background-color: green;
+  position: absolute;
+}
+
+@media screen and (min-width : 375px){
+  .big-guy {
+    display: block;
+    background-color: red;
+  }
+}
+
+@media screen and (min-width : 768px) {
+  .big-guy{
+    display: block;
+    background-color: orange;
